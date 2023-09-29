@@ -1,4 +1,7 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xxyeon&count_private=true&show_icons=true)
+<br>
+<a href="https://mystudylog.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/tistory-FF5A00?style=flat-square&logo=tistory&logoColor=white"/></a>
+
 <!--
 **xxyeon/xxyeon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

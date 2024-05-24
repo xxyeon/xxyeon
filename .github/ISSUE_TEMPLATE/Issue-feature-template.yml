@@ -12,10 +12,12 @@ body:
       placeholder: ex. 사용자 위치기반으로 여행지 추천해주기
     validations:
       required: true
-  - type: checkboxes
+  - type: markdown
     id: check-complete-feature
     attributes:
-      label: 기능 상세 내용
       description: 상세 기능을 적고, 구현된 기능은 체크해주세요.
+      value: |
+        [] 구현한 기능
+        [] 구현한 기능
     validations:
       required: false

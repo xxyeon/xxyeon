@@ -4,20 +4,19 @@ title: "[Feature]: "
 labels: ["feature"]
 
 body:
-  - type: textarea
-    id: feature-contents
+  - type: markdown
     attributes:
-      label: Feature 설명
-      description: 작업할 Feature에 대한 설명을 적어주세요.
-      placeholder: ex. 사용자 위치기반으로 여행지 추천해주기
+      value: |
+        ## Description
+        > 작업할 내용 작성
     validations:
-      required: true
+      required: false
   - type: markdown
     id: check-complete-feature
     attributes:
       value: |
-        ## 상세 내용
-        [] 구현한 기능
-        [] 구현한 기능
+        ##  TODO
+        - [ ] 구현할 기능
+        - [ ] 구현할 기능
     validations:
       required: false

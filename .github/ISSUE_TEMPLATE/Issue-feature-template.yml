@@ -15,8 +15,8 @@ body:
   - type: markdown
     id: check-complete-feature
     attributes:
-      description: 상세 기능을 적고, 구현된 기능은 체크해주세요.
       value: |
+        ## 상세 내용
         [] 구현한 기능
         [] 구현한 기능
     validations:

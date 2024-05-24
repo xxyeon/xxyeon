@@ -1,0 +1,21 @@
+name: Feature Report
+description: File a Feature Report
+title: "[Feature]: "
+labels: ["feature"]
+
+body:
+  - type: textarea
+    id: feature-contents
+    attributes:
+      label: Feature 설명
+      description: 작업할 Feature에 대한 설명을 적어주세요.
+      placeholder: ex. 사용자 위치기반으로 여행지 추천해주기
+    validations:
+      required: true
+  - type: checkboxes
+    id: check-complete-feature
+    attributes:
+      label: 기능 상세 내용
+      description: 상세 기능을 적고, 구현된 기능은 체크해주세요.
+    validations:
+      required: false
